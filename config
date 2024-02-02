@@ -1,0 +1,116 @@
+[global_config]
+  tab_position = bottom
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  always_split_with_profile = True
+[keybindings]
+  go_next = <Primary><Alt>n
+  resize_left = <Primary><Alt>Left
+  resize_right = <Primary><Alt>Right
+  next_tab = <Primary><Shift>Right
+  prev_tab = <Primary><Shift>Left
+  new_window = <Primary><Shift>n
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_color = "#fafafa"
+    cursor_fg_color = "#1e1e1e"
+    cursor_bg_color = "#bbbbbb"
+    cursor_color_default = False
+    font = BlexMono Nerd Font Medium 10
+    foreground_color = "#2a2c33"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#de3e35:#3f953a:#696b16:#2f5af3:#950095:#3f953a:#bbbbbb:#6c6c6c:#be4235:#3f953a:#696b16:#2151a2:#ad30b8:#347997:#ffffff"
+    use_system_font = False
+    bold_is_bright = True
+  [[default-light]]
+    icon_bell = False
+    background_color = "#fcf6e4"
+    cursor_fg_color = "#002b36"
+    cursor_bg_color = "#839496"
+    cursor_color_default = False
+    font = BlexMono Nerd Font Medium 10
+    foreground_color = "#333333"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#717f84:#cb4b16:#586e75:#657b83:#606b6c:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+    bold_is_bright = True
+  [[One dark]]
+    icon_bell = False
+    background_color = "#1e2127"
+    cursor_fg_color = "#1e1e1e"
+    cursor_bg_color = "#a9b7c6"
+    cursor_color_default = False
+    font = BlexMono Nerd Font Medium 10
+    foreground_color = "#aab0bc"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#abb2bf:#5c6370:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#fffefe"
+    use_system_font = False
+    bold_is_bright = True
+  [[Gruber Darker]]
+    background_color = "#1E1E1E"
+    background_darkness = 0.9
+    cursor_fg_color = "#1a2332"
+    cursor_bg_color = "#a4b1cd"
+    cursor_color_default = False
+    font = IosevkaTerm Nerd Font Medium 11
+    foreground_color = "#A9B7C6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#151515:#B24C31:#92B477:#CAC47A:#6C99BB:#D197D9:#fadd4c:#A8A49D:#7D8C93:#CC6666:#99CC99:#FFD700:#71A8A6:#c38f45:#5A647E:#F0F0F0"
+    use_system_font = False
+    bold_is_bright = True
+  [[AtomOneLight]]
+    icon_bell = False
+    background_color = "#fafafa"
+    cursor_fg_color = "#1a2332"
+    cursor_bg_color = "#a4b1cd"
+    cursor_color_default = False
+    font = BlexMono Nerd Font Medium 10
+    foreground_color = "#2a2c33"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#de3e35:#3f953a:#696b16:#2f5af3:#950095:#3f953a:#bbbbbb:#6c6c6c:#be4235:#3f953a:#696b16:#2151a2:#ad30b8:#347997:#ffffff"
+    use_system_font = False
+    bold_is_bright = True
+  [[Hack The Box]]
+    icon_bell = False
+    background_color = "#1a2332"
+    cursor_fg_color = "#1a2332"
+    cursor_bg_color = "#a4b1cd"
+    cursor_color_default = False
+    font = BlexMono Nerd Font Medium 10
+    foreground_color = "#a4b1cd"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#ff3e3e:#9fef00:#ffaf00:#004cff:#9f00ff:#2ee7b6:#ffffff:#666666:#ff8484:#c5f467:#ffcc5c:#5cb2ff:#c16cfa:#5cecc6:#ffffff"
+    use_system_font = False
+    bold_is_bright = True
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 38:70
+      maximised = False
+      fullscreen = False
+      size = 1455, 684
+      title = msuarez@DDC2022016:~
+      last_active_term = 4fcb5a27-a6ab-4a6c-ad5d-091910059e80
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = AtomOneLight
+      uuid = 4fcb5a27-a6ab-4a6c-ad5d-091910059e80
+[plugins]
